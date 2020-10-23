@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block title %}
+
+{% for users in users %}
+<li><a href = {{ users }}> Hello, {{ users }}</a></li>
+{% endfor %}
+
+{% endblock %}
+
