@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+
+<h1>Hello {{ users }}.  Welcome to your Page.</h1>
+
+{% for users in users %}
+<li>{{ users }}</li>
+{% endfor %}
+<br>
+<a href = />Home</a>
+
+{% endblock %}
